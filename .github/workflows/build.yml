@@ -19,7 +19,7 @@ jobs:
         run: make PATCH_OPTS='-q'
       - uses: actions/upload-artifact@v3
         with:
-          name: ComicShannsNerdFont
+          name: artifacts
           path: |
             *.ttf
             *.otf
@@ -32,5 +32,5 @@ jobs:
       - uses: softprops/action-gh-release@v1
         with:
           files: |
-            *.ttf
-            *.otf
+            artifacts/*.ttf
+            artifacts/*.otf
