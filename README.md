@@ -24,6 +24,8 @@ both of v1 and v2.
 
 You can download it and install it like any other font.
 
+If you use Arch Linux, you can install the font from AUR: [comic-shanns-nerd](https://aur.archlinux.org/pkgbase/comic-shanns-nerd).
+
 ## What does it look like?
 
 Like if someone made a dumbass version of Comic Sans that is monospaced.
